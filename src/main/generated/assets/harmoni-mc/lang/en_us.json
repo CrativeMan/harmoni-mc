@@ -1,4 +1,7 @@
 {
   "item.harmoni-mc.magic_mirror": "Magic Mirror",
-  "itemgroup.harmoni-mc.harmoni_group": "Harmoni MC"
+  "item.harmoni-mc.starter_pouch": "Starter Pouch",
+  "item.harmoni-mc.trident_spike": "Trident Spike",
+  "itemgroup.harmoni-mc.harmoni_group": "Harmoni MC",
+  "text.harmoni-mc.starter_pouch_level_req": "You need to be at least level 5 to use this item"
 }

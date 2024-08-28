@@ -18,4 +18,3 @@ public class HarmoniMc implements ModInitializer {
 		HarmoniItemGroup.registerItemGroup();
     }
 }
-

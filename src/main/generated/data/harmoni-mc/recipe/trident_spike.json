@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "I": {
+      "item": "minecraft:prismarine_shard"
+    }
+  },
+  "pattern": [
+    "I",
+    "D"
+  ],
+  "result": {
+    "count": 1,
+    "id": "harmoni-mc:trident_spike"
+  }
+}

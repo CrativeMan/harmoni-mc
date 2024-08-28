@@ -13,11 +13,12 @@ public class ModModelProvider extends FabricModelProvider {
 
 	@Override
 	public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-
 	}
 
 	@Override
 	public void generateItemModels(net.minecraft.data.client.ItemModelGenerator itemModelGenerator) {
 		itemModelGenerator.register(HarmoniItems.MAGIC_MIRROR, Models.SINGLE_LAYER_ITEM);
+		itemModelGenerator.register(HarmoniItems.TRIDENT_SPIKE, Models.SINGLE_LAYER_ITEM);
+		itemModelGenerator.register(HarmoniItems.STARTER_POUCH, Models.SINGLE_LAYER_ITEM);
 	}
 }

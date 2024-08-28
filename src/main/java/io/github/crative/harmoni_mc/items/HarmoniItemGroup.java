@@ -14,7 +14,9 @@ public class HarmoniItemGroup {
 		.icon(() -> new ItemStack(HarmoniItems.MAGIC_MIRROR))
 		.name(Text.translatable("itemgroup.harmoni-mc.harmoni_group"))
 		.entries((context, entries) ->{
+			entries.addItem(HarmoniItems.STARTER_POUCH);
 			entries.addItem(HarmoniItems.MAGIC_MIRROR);
+			entries.addItem(HarmoniItems.TRIDENT_SPIKE);
 		})
 		.build();
 

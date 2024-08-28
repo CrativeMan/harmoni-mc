@@ -16,6 +16,9 @@ public class ModTranslationProvider extends FabricLanguageProvider {
 	@Override
 	public void generateTranslations(HolderLookup.Provider registryLookup, TranslationBuilder translationBuilder) {
 		translationBuilder.add(HarmoniItems.MAGIC_MIRROR, "Magic Mirror");
+		translationBuilder.add(HarmoniItems.TRIDENT_SPIKE, "Trident Spike");
+		translationBuilder.add(HarmoniItems.STARTER_POUCH, "Starter Pouch");
 		translationBuilder.add("itemgroup.harmoni-mc.harmoni_group", "Harmoni MC");
+		translationBuilder.add("text.harmoni-mc.starter_pouch_level_req", "You need to be at least level 5 to use this item");
 	}
 }

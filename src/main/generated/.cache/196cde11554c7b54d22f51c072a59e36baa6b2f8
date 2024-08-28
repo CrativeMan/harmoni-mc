@@ -1,3 +1,9 @@
-// 1.21	2024-08-06T19:25:33.509378221	harmoni/Recipes
+// 1.21	2024-08-28T12:19:34.818343487	harmoni/Recipes
 20b270d7a77fcd1a563d40be8556b0cfb5d2fee1 data/harmoni-mc/recipe/magic_mirror.json
+91f3ba1ba8210efd762f3e3d7dd513c71775a02a data/harmoni-mc/recipe/trident.json
 691e4790f41c16f43ab785f667933bbb7f598dcb data/harmoni-mc/advancement/recipes/tools/magic_mirror.json
+7bf4aedb1c9d77869194ff60b2dbdfd99b4fd053 data/harmoni-mc/advancement/recipes/misc/trident_spike.json
+d2f59b42fb8d9d0ab3b6ae7d99c41d6d09c472b1 data/harmoni-mc/recipe/trident_spike.json
+c6e9bf2c4d9a650468ad437cdc832989f11a3d97 data/harmoni-mc/advancement/recipes/misc/starter_pouch.json
+3d2e77730c025670e53fe2f466d4ef78ed10e7ca data/harmoni-mc/advancement/recipes/combat/trident.json
+c625e41201d5df9b9c6c2e7e46715579b0cca832 data/harmoni-mc/recipe/starter_pouch.json
