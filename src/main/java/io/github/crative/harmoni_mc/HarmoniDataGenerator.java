@@ -1,5 +1,6 @@
 package io.github.crative.harmoni_mc;
 
+import io.github.crative.harmoni_mc.datagenerator.ModEnchantmentProvider;
 import io.github.crative.harmoni_mc.datagenerator.ModModelProvider;
 import io.github.crative.harmoni_mc.datagenerator.ModTranslationProvider;
 import io.github.crative.harmoni_mc.datagenerator.ModRecipeProvider;
@@ -14,5 +15,6 @@ public class HarmoniDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModTranslationProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
+		pack.addProvider(ModEnchantmentProvider::new);
 	}
 }

@@ -17,6 +17,7 @@ public class HarmoniItemGroup {
 			entries.addItem(HarmoniItems.STARTER_POUCH);
 			entries.addItem(HarmoniItems.MAGIC_MIRROR);
 			entries.addItem(HarmoniItems.TRIDENT_SPIKE);
+			entries.addItem(HarmoniItems.TEST_ITEM);
 		})
 		.build();
 

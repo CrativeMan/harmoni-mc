@@ -1,5 +1,6 @@
 package io.github.crative.harmoni_mc.datagenerator;
 
+import io.github.crative.harmoni_mc.enchantments.HarmoniEntchantment;
 import io.github.crative.harmoni_mc.items.HarmoniItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
@@ -20,5 +21,7 @@ public class ModTranslationProvider extends FabricLanguageProvider {
 		translationBuilder.add(HarmoniItems.STARTER_POUCH, "Starter Pouch");
 		translationBuilder.add("itemgroup.harmoni-mc.harmoni_group", "Harmoni MC");
 		translationBuilder.add("text.harmoni-mc.starter_pouch_level_req", "You need to be at least level 5 to use this item");
+
+		translationBuilder.addEnchantment(HarmoniEntchantment.REELING_KEY, "Reeling");
 	}
 }
